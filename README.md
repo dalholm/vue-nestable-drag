@@ -1,15 +1,12 @@
-# vue-nestable
+# vue-nestable-drag
 
-Drag & drop hierarchical list made as a vue component.
+This package is based on [vue-nestable](https://github.com/rhwilr/vue-nestable) and is a nestable drag and drop component. Create simple lists add, sort, drag or drop them in another list.
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 
 [npm-image]: https://img.shields.io/npm/v/vue-nestable.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/vue-nestable
-
-[travis-image]: https://img.shields.io/travis/rhwilr/vue-nestable/master.svg?style=flat-square
-[travis-url]: https://www.npmjs.com/package/vue-nestable-drag
 
 <hr />
 
@@ -37,7 +34,7 @@ Drag & drop hierarchical list made as a vue component.
 
 ## Demo
 
-[Live Demo](https://rhwilr.github.io/vue-nestable/)
+[Live Demo](https://dalholm.github.io/vue-nestable-drag/)
 
 
 ## Installation
@@ -45,7 +42,7 @@ Drag & drop hierarchical list made as a vue component.
 Install the plugin:
 
 ```sh
-npm install --save vue-nestable
+npm install --save vue-nestable-drag
 ```
 
 Use the plugin in your app:
