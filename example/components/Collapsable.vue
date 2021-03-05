@@ -7,7 +7,16 @@
       <VueNestableHandle
       slot-scope="{ item }" :item="item">
         <i class="fas fa-user" />
-        {{ item.text }} <br>
+
+
+      <a @click="toggleExpansion(item)" v-if="item.children && item.children.length > 0">
+        <slot name="expandable-trigger" :v-bind="item.expanded">
+            <i :class="`${item.expanded ? 'fas fa-caret-up' : 'fas fa-caret-down'}`"></i>
+        </slot>
+      </a>
+
+      {{ item.text }} <br>
+
       </VueNestableHandle>
     </VueNestable>
   </ComponentExample>
@@ -54,7 +63,9 @@ export default {
     };
   },
   methods: {
-
+    toggleExpansion(item) {
+      item.expanded = !item.expanded;
+    }
   }
 };
 </script>

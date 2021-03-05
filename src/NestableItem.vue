@@ -6,20 +6,12 @@
       @mouseleave="onMouseLeave"
       @mousemove="onMouseMove"
     >
-
-    <template v-if="options.expandable">
-      <a @click="toggleExpansion(item)" v-if="item.children && item.children.length > 0">
-        <slot name="expandable-trigger" :v-bind="item.expanded">
-            <i :class="`${item.expanded ? 'fas fa-caret-up' : 'fas fa-caret-down'}`"></i>
-        </slot>
-      </a>
-    </template>
-
       <slot
         :index="index"
         :item="item"
         :isChild="isChild"
       />
+
     </div>
 
     <ol
@@ -195,10 +187,6 @@ export default {
       const item = this.item || this.$parent.item
       this.notifyMouseEnter(this.group, event, this.listId, item)
     },
-
-    toggleExpansion(item) {
-      item.expanded = !item.expanded;
-    }
   }
 }
 </script>
