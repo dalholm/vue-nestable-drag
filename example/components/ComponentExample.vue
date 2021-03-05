@@ -24,7 +24,7 @@ export default {
 
   computed: {
     url () {
-      return `https://github.com/rhwilr/vue-nestable/blob/master/example/components/${this.link}.vue`
+      return `https://github.com/dalholm/vue-nestable-drag/blob/master/example/components/${this.link}.vue`
     }
   }
 }
