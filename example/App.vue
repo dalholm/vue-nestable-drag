@@ -2,7 +2,7 @@
   <div class="app">
     <!-- Header -->
     <div class="header">
-      <h1>vue-nestable</h1>
+      <h1>vue-nestabl-drag</h1>
 
       <div class="command">
         npm install --save vue-nestable-drag

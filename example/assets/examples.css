@@ -36,13 +36,13 @@ body {
   justify-content: center;
   align-items: center;
 
-  background: #415ad4;
+  background: #001a38;
   color: #f3f3f4;
   padding: 32px;
 }
 
 .command {
-  background: #2c44bd;
+  background: #1a3452;
   color: #fff;
   font-family: monospace;
   margin: 12px auto;
@@ -64,13 +64,13 @@ section.nav {
 }
 
 section.nav a:hover {
-  background: #5b70d6;
+  background: #294a70;
 }
 section.nav a {
   display: inline-block;
   padding: 8px 16px;
   color: #fff;
-  background: #5166cf;
+  background: #1a3452;
   border-radius: 3px;
 }
 section.nav a:not(:last-child) {
