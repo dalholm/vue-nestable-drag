@@ -9,7 +9,7 @@ Drag & drop hierarchical list made as a vue component.
 [npm-url]: https://www.npmjs.com/package/vue-nestable
 
 [travis-image]: https://img.shields.io/travis/rhwilr/vue-nestable/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/rhwilr/vue-nestable
+[travis-url]: https://www.npmjs.com/package/vue-nestable-drag
 
 <hr />
 
