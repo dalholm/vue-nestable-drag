@@ -2,12 +2,6 @@
 
 This package is based on [vue-nestable](https://github.com/rhwilr/vue-nestable) and is a nestable drag and drop component. Create simple lists add, sort, drag or drop them in another list.
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-
-[npm-image]: https://img.shields.io/npm/v/vue-nestable.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/vue-nestable
-
 <hr />
 
 
