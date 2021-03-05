@@ -5,11 +5,11 @@
       <h1>vue-nestable</h1>
 
       <div class="command">
-        npm install --save vue-nestable
+        npm install --save vue-nestable-drag
       </div>
 
       <div class="description">
-        Drag & drop hierarchical list made as a vue component
+        A nestable drag and drop list component. Create simple lists add, sort, drag or drop them in another list.
       </div>
 
       <section class="nav">
@@ -19,7 +19,7 @@
         <a href="https://github.com/dalholm/vue-nestable-drag/issues">
           Report an issue
         </a>
-        <a href="https://www.npmjs.com/package/vue-nestable">
+        <a href="https://www.npmjs.com/package/vue-nestable-drag">
           Npm package
         </a>
       </section>
