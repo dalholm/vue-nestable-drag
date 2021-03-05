@@ -1,9 +1,14 @@
 {
-  "name": "vue-nestable",
-  "version": "2.6.0",
-  "description": "vue-nestable",
+  "name": "vue-nestable-drag",
+  "version": "1.0.0",
+  "description": "vue-nestable-drag",
   "author": "Ralph Huwiler <ralph@huwiler.rocks>",
   "homepage": "https://rhwilr.github.io/vue-nestable/",
+  "contributes": {
+    "name": "Mikael Dalholm",
+    "email": "mikael@dalholm.se",
+    "url": "https://dalholm.github.io/vue-nestable-drag/"
+  },
   "license": "MIT",
   "module": "dist/index.umd.js",
   "main": "dist/index.umd.min.js",
@@ -11,8 +16,8 @@
   "jsdelivr": "dist/index.iife.min.js",
   "keywords": [
     "vue",
-    "vue-nestable",
-    "vue nestable",
+    "vue-nestable-drag",
+    "vue nestable drag",
     "vue tree"
   ],
   "scripts": {
@@ -79,5 +84,16 @@
   },
   "pre-commit": [
     "test"
-  ]
+  ],
+  "directories": {
+    "example": "example",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalholm/vue-nestable-drag.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dalholm/vue-nestable-drag/issues"
+  }
 }
