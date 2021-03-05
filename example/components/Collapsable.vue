@@ -10,9 +10,7 @@
 
 
       <a @click="toggleExpansion(item)" v-if="item.children && item.children.length > 0">
-        <slot name="expandable-trigger" :v-bind="item.expanded">
-            <i :class="`${item.expanded ? 'fas fa-caret-up' : 'fas fa-caret-down'}`"></i>
-        </slot>
+        <i :class="`${item.expanded ? 'fas fa-caret-up' : 'fas fa-caret-down'}`"></i>
       </a>
 
       {{ item.text }} <br>
