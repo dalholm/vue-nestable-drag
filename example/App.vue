@@ -13,10 +13,10 @@
       </div>
 
       <section class="nav">
-        <a href="https://github.com/rhwilr/vue-nestable#vue-nestable">
+        <a href="https://github.com/dalholm/vue-nestable-drag#vue-nestable">
           Documentation
         </a>
-        <a href="https://github.com/rhwilr/vue-nestable/issues">
+        <a href="https://github.com/dalholm/vue-nestable-drag/issues">
           Report an issue
         </a>
         <a href="https://www.npmjs.com/package/vue-nestable">
@@ -41,7 +41,7 @@
         <code>expandade</code> property is required for this feature. See the example for more information
       </p>
       <Collapsable />
-      
+
       <h1>Add items ( via footer slot)</h1>
       <p>
         You can simply add more items on each node using the
