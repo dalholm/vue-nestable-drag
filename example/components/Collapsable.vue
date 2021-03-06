@@ -57,6 +57,31 @@ export default {
             },
           ],
         },
+        {
+          id: 5,
+          text: 'Row 1',
+          children: [],
+          expanded: false,
+        },
+        {
+          id: 6,
+          text: 'Row 2',
+          children: [],
+          expanded: false,
+        },
+        {
+          id: 7,
+          text: 'Row 7',
+          children: [],
+          expanded: false,
+        }
+        ,
+        {
+          id: 8,
+          text: 'Row 8',
+          children: [],
+          expanded: false,
+        }
       ]
     };
   },
