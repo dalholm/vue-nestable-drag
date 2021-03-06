@@ -378,6 +378,17 @@ export default {
         childrenProp: this.childrenProp
       })
 
+      // Expand the ul if expandable
+      if (this.expandable) {
+        let path = realPathTo;
+        path.pop();
+
+        if (this.getItemByPath(path)) {
+          this.getItemByPath(path).expanded = true
+        }
+      }
+
+
       if (!this.hook('beforeMove', { dragItem, pathFrom, pathTo: realPathTo })) return
 
       let items = this.value
