@@ -380,11 +380,20 @@ export default {
 
       // Expand the ul if expandable
       if (this.expandable) {
+        const isOpen = dragItem.expanded
+
         let path = realPathTo;
         path.pop();
 
-        if (this.getItemByPath(path)) {
-          this.getItemByPath(path).expanded = true
+        this.lastTouchedPath = path;
+
+        let item = this.getItemByPath(path)
+        if (item) {
+          item.expanded = true;
+        }
+
+        if (!isOpen && dragItem.expanded) {
+          dragItem.expanded = false;
         }
       }
 
